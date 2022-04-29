@@ -1,0 +1,424 @@
+/*****************************************
+
+CSS File corresponding to fixed elements
+on the website.
+
+*****************************************/
+
+
+/*****************************************/
+/* Body */
+body {
+    background-color: #FAFAFA;
+    font-family: "Helvetica Neue";
+    padding: 0;
+    margin: 0;
+}
+/*****************************************/
+
+
+/*****************************************/
+/* Sticky Header */
+/* Underlaying Image */
+header {
+    background-color: #FAFAFA;
+    padding: 15px;
+    border-bottom: 2px solid #DBDBDB;
+    position: fixed;
+    top: 0;
+    width: 98.5%;
+    height: 40px;       
+    z-index: 100;
+}
+
+header img {
+    width: 80px;
+    float: left;
+    margin-top: -10px;
+    margin-left: 75px;
+}
+
+/* Page Selection */
+#pages {
+    position: fixed;
+    z-index: 102;
+    width: 100%;
+    text-align: right;
+    margin-top: -82px;
+    right: 50px;
+}
+
+#pages li {
+    display: inline;
+    padding-left: 5px;
+    font-size: 1.3em;
+}
+
+#pages li a {
+    color: #262626;
+    text-decoration: none;
+    padding: 13px;
+}
+
+#pages li a:hover {
+    background: #EFEFEF;
+    color: #FD87F2;
+    transition: .3s ease;
+}
+
+#pages li a.selected {
+    background: #EFEFEF;
+    color: #5DE1E6;
+}
+
+#pages li a.selected:hover {
+    background: #EFEFEF;
+    color: #5DE1E6;
+}
+
+/* Title of the Page */
+#title {
+    width: 100%;
+    margin-top: -130px;
+    text-align: center;
+    font-size: 3em;
+    z-index: 101;
+    position: fixed;
+}
+/*****************************************/
+
+
+/*****************************************/
+/* Side Bar */
+#sidebar {
+    background-color: white;
+    border: 2px solid #DBDBDB;
+    width: 25%;
+    padding: 1em;
+    font-size: .875em;
+    right: 0;
+    margin-top: 0px;
+    margin-right: 25px;
+    position: fixed;
+    z-index: 99;
+}
+
+#sidebar #online_order {
+    background-color: #EFEFEF;
+    display: block;
+    padding: 15px;
+    color: #262626;
+    text-decoration: none;
+    font-size: 2em;
+    text-align: center;
+}
+
+#sidebar #online_order:hover {
+    background-color: #F8DECE;
+    padding: 15px;
+    display: block;
+    color: #FD87F2;
+    text-decoration: none;
+    font-size: 2em;
+    text-align: center;
+}
+
+/* Table */
+table {
+    width: 100%;
+}
+
+.tab td {
+    font-size: 1.4em;
+    height: 35px;
+    width: 78%;
+    text-align: center;
+}
+
+.tab th {
+    font-size: 1.75em;
+    text-align: left;
+}
+
+#sidebar iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+/*****************************************/
+
+
+/*****************************************/
+/* Content */
+#main {
+    width: 50%;
+    margin-left: 300px;
+    margin-top: 90px;
+}
+
+/* Cards */
+.card, .ccard{
+    border: 2px solid #DBDBDB;
+    width: 75%;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#main .card_title {
+    position: relative;
+    top: 0px;
+    margin-top: 1px;
+    font-size: 1.5em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main .description {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 90%;
+    top: 0px;
+    text-align: justify;
+}
+
+.yelp-review {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* Slide Show */
+.slide img{
+    width: 100%;
+}
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/*****************************************/
+
+
+/*****************************************/
+/* Menu Options */
+.accordion {
+    background-color: #eee;
+    cursor: pointer;
+    padding-left: 35px;
+    padding-right: 35px;
+    width: 100%;
+    border: none;
+    font-size: 1.25em;
+}
+
+.panel {
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.panel .slideshow-container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.panel p{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.accordion:hover {
+    background-color: #F8DECE;
+    color: #FD87F2;
+}
+
+.fname {
+    display: inline-block;
+    width: 75%;
+    text-align: left;
+}
+
+.price {
+    width: 25%;
+    text-align: right;
+    float: right;
+}
+/*****************************************/
+
+
+/*****************************************/
+/* Search Bar */
+.card #search {
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.search_bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search_bar input {
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    background: transparent;
+}
+
+::placeholder {
+    color: #8E8E8E;
+}
+
+.search_bar button img {
+    width: 25px;
+}
+
+.search_bar button {
+    border: 0;
+    width: 60px;
+    height: 60px;
+    background: #EFEFEF;
+    cursor: pointer;
+}
+
+.search_bar button:hover {
+    background: #F8DECE;
+}
+/*****************************************/
+
+
+/*****************************************/
+/* Contacts */
+#main .card #ccontacts {
+    border-bottom: 2px solid #DBDBDB;
+    width: 100%;
+}
+
+#main .card #ccontacts p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main .card #contacts {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+#main .card #contacts #email {
+    text-decoration: none;
+    color: black;
+}
+
+#main .card #contacts #email:hover {
+    text-decoration: underline;
+}
+
+#main .card #cform {
+    border-bottom: 2px solid #DBDBDB;
+    width: 100%;
+}
+
+#main .card #cform p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Forms */
+.card #form {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tab .titl td{
+    text-align: left;
+}
+
+.tab .sub {
+    font-size: 15px;
+}
+
+.sub #news {
+    width: 13px;
+    height: 13px;
+}
+
+#form .tit {
+    background-color: #EFEFEF;
+}
+
+#form input{
+    outline: none;
+    text-align: center;
+    border: 0;
+    background: transparent;
+    font-size: 20px;
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    font-family: "Helvetica Neue";
+    background-color: #EFEFEF;
+    outline: none;
+    border: 0;
+    resize: vertical;
+}
+
+#form .submit {
+    background-color: #EFEFEF;
+    padding: 5px;
+    width: 20%;
+    cursor: pointer;
+}
+
+#form .submit:hover {
+    color: #FD87F2;
+    background-color: #F8DECE;
+}
+/*****************************************/

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="author" content="Jason Kwok">
+    <meta name="keywords" content="Pamela's Diner">
+    <meta name="description" content="Pamela's Diner's Restaurant Website">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <!-- Import  Relevant Files-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+
+    <title>Pamela's Diner</title>
+</head>
+
+<body>
+    
+    <!--  Logo -->
+    <header>
+        <img src="images/pamelaslogotrans.png" alt="logo">
+    </header>
+
+    <!-- Title of Page -->
+    <div id="title">
+        <p>Contact Us</p>
+    </div>
+
+    <!-- Pages -->
+    <div id="pages">
+        <ul>
+            <li><a href="index.html">About Us</a></li>
+            <li><a href="menu.html">Menu & Prices</a></li>
+            <li><a class="selected" href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <!-- Side Bar -->
+    <div id="sidebar">
+
+        <a id="online_order" href="https://www.toasttab.com/pamelas-diner-shadyside-5527-walnut-st/v3" target="_blank">Order Online</a><br>
+        
+
+        <table class="tab">
+            <tr>
+                <th><strong>Hours:</strong></th>
+            </tr>
+            <tr>
+                <td>Sunday: 8AM to 2PM</td>
+            </tr>
+            <tr>
+                <td>Monday: 8AM to 2PM</td>
+            </tr>
+            <tr>
+                <td>Tuesday: 8AM to 2PM</td>
+            </tr>
+            <tr>
+                <td>Wednesday: 8AM to 2PM</td>
+            </tr>
+            <tr>
+                <td>Thursday: 8AM to 2PM</td>
+            </tr>
+            <tr>
+                <td>Friday: 8AM to 2PM</td>
+            </tr>
+            <tr>
+                <td>Saturday: 8AM to 2PM</td>
+            </tr>
+        </table><br><br>
+
+
+        <table class="tab">
+            <tr>
+                <th><strong>Location:</strong></th>
+            </tr>
+            <tr>
+                <td>3703 Forbes Ave, Pittsburgh, PA 15213</td>
+            </tr>
+        </table><br>
+
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.5360113209485!2d-79.95978144843252!3d40.44127196196812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f229e57e54fb%3A0x85711e3bfcf4be29!2sPamela&#39;s%20Diner!5e0!3m2!1sen!2sus!4v1648714433994!5m2!1sen!2sus" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+    </div> 
+
+    <!-- Content -->
+    <div id="main">
+        <div class="card">
+            <div class="card_title" id="ccontacts">
+                <p>Contact Info</p>
+            </div>
+
+            <table class="tab" id="contacts">
+                <tr>
+                    <th><strong>Email:</strong></th>
+                    <td><a id="email" href="mailto:pam@pamelasdiner.com">pam@pamelasdiner.com</a></td>
+                </tr>
+                <tr>
+                    <th><strong>Phone:</strong></th>
+                    <td>412 - 683 - 4066</td>
+                </tr>
+                <tr>
+                    <th><strong>Mail:</strong></th>
+                    <td>3703 Forbes Ave, Pittsburgh, PA 15213</td>
+                </tr>
+            </table>
+        </div>
+
+        <br> <br>
+        <div class="card">
+            <div class="card_title" id="cform">
+                <p>Contact Form</p>
+            </div>
+            <br>
+            <form onsubmit="return validate();" action="mailto:pam@pamelasdiner.com" method="post" enctype="text/plain">
+                <table class="tab" id="form">
+                    <tr class="titl">
+                        <td>Name:</td>
+                    </tr>
+                    <tr>
+                        <td class="tit"><input type="text" id="fname" name="Name" placeholder="Your Name" required></td>
+                    </tr>
+                    <tr class="titl">
+                        <td>Email:</td>
+                    </tr>
+                    <tr>
+                        <td class="tit">
+                            <input type="email" id="femail" name="Email" placeholder="username@email.com" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="sub">
+                            <label for="news" id="subscribe"><input type="checkbox" id="news" name="Subscribed" value="Yes" checked>Subscribe to Newsletter
+                            </label>
+                        </td>
+                    </tr>
+                    <tr class="titl">
+                        <td>Zip Code:</td>
+                    </tr>
+                    <tr>
+                        <td class="tit"><input type="number" id="zip" name="Zip Code" placeholder="Zip Code"></td>
+                    </tr>
+                    <tr class="titl">
+                        <td>Message:</td>
+                    </tr>
+                    <tr>
+                        <td><textarea rows="12" name="Message"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" class="submit">
+                        </td>
+                    </tr>
+                </table>
+                <br> 
+            </form>
+        </div>
+        <br>
+        <br>     
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

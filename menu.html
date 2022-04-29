@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="author" content="Jason Kwok">
+    <meta name="keywords" content="Pamela's Diner">
+    <meta name="description" content="Pamela's Diner's Restaurant Website">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <!-- Import  Relevant Files-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+
+    <script src="js/scripts.js"></script>
+
+    <title>Pamela's Diner</title>
+
+    
+    
+</head>
+
+<body>
+    <!--  Logo -->
+    <header>
+        <img src="images/pamelaslogotrans.png" alt="logo">
+    </header>
+
+    <!-- Title of Page -->
+    <div id="title">
+        <p>Menu & Prices</p>
+    </div>
+
+    <!-- Pages -->
+    <div id="pages">
+        <ul>
+            <li><a href="index.html">About Us</a></li>
+            <li><a class="selected" href="menu.html">Menu & Prices</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <!-- Side Bar -->
+    <div id="sidebar">
+
+        <a id="online_order" href="https://www.toasttab.com/pamelas-diner-shadyside-5527-walnut-st/v3" target="_blank">Order Online</a><br>
+        
+
+        <table class="tab">
+            <tr>
+                <th><strong>Hours:</strong></th>
+            </tr>
+            <tr>
+                <td>Sunday: 8AM to 2PM</td>
+            </tr>
+            <tr>
+                <td>Monday: 8AM to 2PM</td>
+            </tr>
+            <tr>
+                <td>Tuesday: 8AM to 2PM</td>
+            </tr>
+            <tr>
+                <td>Wednesday: 8AM to 2PM</td>
+            </tr>
+            <tr>
+                <td>Thursday: 8AM to 2PM</td>
+            </tr>
+            <tr>
+                <td>Friday: 8AM to 2PM</td>
+            </tr>
+            <tr>
+                <td>Saturday: 8AM to 2PM</td>
+            </tr>
+        </table><br><br>
+
+
+        <table class="tab">
+            <tr>
+                <th><strong>Location:</strong></th>
+            </tr>
+            <tr>
+                <td>3703 Forbes Ave, Pittsburgh, PA 15213</td>
+            </tr>
+        </table><br>
+
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.5360113209485!2d-79.95978144843252!3d40.44127196196812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f229e57e54fb%3A0x85711e3bfcf4be29!2sPamela&#39;s%20Diner!5e0!3m2!1sen!2sus!4v1648714433994!5m2!1sen!2sus" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+    </div> 
+
+    <!-- Content -->
+    <div id="main">
+        <!-- Search Bar -->
+        <div class="card">
+            <div id="search">
+                <form class="search_bar">
+                    <input type="text" placeholder="Search..." name="search">
+                    <button type="submit"><img src="images/search.png"></button>
+                </form>
+            </div>
+        </div>
+
+        <br> <br>
+
+        <div class="card">
+            <div class="card_title">
+                <p>Egg Combos</p>
+            </div>
+
+            <div class="options">
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Meat & Eggs</p>
+                        <p class="price">$9.75</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>2 eggs any style with your choice of double smoked, thick-slice bacon, hand-carved ham, sausage links or turkey sausage patties.</p>
+                    </div>
+                </div>
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">2 Eggs</p>
+                        <p class="price">$8.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>Eggs any style. Comes with choice of side and toast.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <br> <br>
+
+        <div class="card">
+            <div class="card_title">
+                <p>Omelets</p>
+            </div>
+
+            <div class="options">
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Cheese Omelet</p>
+                        <p class="price">$9.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>3 egg omelets. Filled with choice of cheese. Comes with choice of side and toast.</p>
+                    </div>
+                </div>
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Meat & Cheese Omelet</p>
+                        <p class="price">$10.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>Choice of bacon, sausage or ham.</p>
+                    </div>
+                </div>
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Western Omelet</p>
+                        <p class="price">$10.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>3 egg omelets. Filled with ham, peppers, and onions. Comes with choices of side and toast.</p>
+                    </div>
+                </div>
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Corned Beef & Swiss Omelet</p>
+                        <p class="price">$10.50</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>3 egg omelets. Comes with choice of side and toast.</p>
+                    </div>
+                </div>
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Spinach & Feta Omelet</p>
+                        <p class="price">$10.50</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>3 egg omelets. Comes with choice of side and toast.</p>
+                    </div>
+                </div>
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Veggie Omelet</p>
+                        <p class="price">$10.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>3 egg omelets. Filled with peppers, onions, mushrooms, and tomatoes. Comes with choice of side and toast.</p>
+                    </div>
+                </div>
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Mushroom & Cheese Omelet</p>
+                        <p class="price">$10.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>3 egg omelets. Comes with choice of side and toast.</p>
+                    </div>
+                </div>
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Broccoli & Cheddar Omelet</p>
+                        <p class="price">$10.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>3 egg omelets. Comes with choice of side and toast.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br> <br>
+
+         <div class="card">
+            <div class="card_title">
+                <p>Fan Favorites</p>
+            </div>
+
+            <div class="options">
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Tex-Mex Omelet</p>
+                        <p class="price">$11.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>3 egg omelet. Filled with choizo, cheddar, and salse. Then topped with sour cream and quacamole. Comes with choice of side and toast.</p>
+                    </div>
+                </div>
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Gail's Favorite Eggs</p>
+                        <p class="price">$8.75</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>Scrambled eggs. Topped with cream cheese and scallions. Comes with choice of side and toast.</p>
+                    </div>
+                </div>
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">The Morning After Breakfast Special</p>
+                        <p class="price">$11.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>Comes with a short stack of our famous hotcakes, 2 eggs any style, and a choice of meat. Substitute the short stack for one of our specialty hotcakes for just $2.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <br> <br>
+
+        <div class="card">
+            <div class="card_title">
+                <p>Homemade Hash</p>
+            </div>
+
+            <div class="options">
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Chorizo Hash</p>
+                        <p class="price">$11.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>Chorizo mixed with our famous lyonnaise potatoes and jalapenos. Then topped with cheddar and sour cream. Comes with 2 eggs any style and choice of tortilla or toast.</p>
+                    </div>
+                </div>
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Corned Beef Hash</p>
+                        <p class="price">$11.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>Corned beef mixed with our famous lyonnaise potatoes. Comes with 2 eggs any style and choice of toast.</p>
+                    </div>
+                </div>                
+            </div>
+        </div>
+
+        <br> <br>
+
+        <div class="card">
+            <div class="card_title">
+                <p>Specialty Hotcakes Crepe Style</p>
+            </div>
+
+            <div class="options">
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Strawberry Hotcakes</p>
+                        <p class="price">$10.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>Our famous hotcakes, rolled and stuffed with fresh strawberries, brown sugar, sour cream, and topped with whip cream.</p>
+                    </div>
+                </div>
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Blueberry Hotcakes</p>
+                        <p class="price">$10.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>Our famous hotcakes, rolled and stuffed with blueberries, brown sugar, sour cream, and topped with whip cream.</p>
+                    </div>
+                </div> 
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Chocolate Chip Banana Hotcakes</p>
+                        <p class="price">$10.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>Our famous hotcakes, rolled and stuffed with bananas, chocolate chips, and whipped cream.</p>
+                    </div>
+                </div>   
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Banana Walnut Hotcakes</p>
+                        <p class="price">$10.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>Our famous hotcakes, rolled and stuffed with bananas, chopped walnuts, and whip cream.</p>
+                    </div>
+                </div>        
+            </div>
+        </div>
+
+        <br> <br>
+
+        <div class="card">
+            <div class="card_title">
+                <p>Hotcakes, French Toast and Waffles</p>
+            </div>
+
+            <div class="options">
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Pamela's Famous Crepe Style Hotcakes</p>
+                        <p class="price">$8.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>3 of our famous hotcakes with the crispy edges.  A side of meat is optional.</p>
+                    </div>
+                </div>
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Crepe Style Short Stack Hotcakes</p>
+                        <p class="price">$6.75</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>2 of our famous hotcakes with the crispy edges.  A side of meat is optional.</p>
+                    </div>
+                </div> 
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">French Toast</p>
+                        <p class="price">$8.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>3 pieces of classic french toast on Italian bread. Add a favorite fruit topping or a choice of meat optional.</p>
+                    </div>
+                </div>   
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">California French Toast</p>
+                        <p class="price">$9.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>3 pieces of whole wheat raisin bread, dipped in a cinnamon, vanilla batter. Topped with butter and powdered sugar. Add a fruit topping or chocolate chip or walnuts optional.</p>
+                    </div>
+                </div>    
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Croissant French Toast</p>
+                        <p class="price">$10.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>3 pieces of croissants, dipped in a cinnamon, vanilla batter, then topped with chopped walnuts, caramel sauce, and powdered sugar.</p>
+                    </div>
+                </div>   
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Belgian Waffle</p>
+                        <p class="price">$8.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>Belgian waffle topped with butter and powdered sugar. Add a fruit topping, chocolate chips, or walnuts optional.</p>
+                    </div>
+                </div>    
+            </div>
+        </div>
+
+        <br> <br>
+
+        <div class="card">
+            <div class="card_title">
+                <p>Burgers, Chicken and Sandwiches</p>
+            </div>
+
+            <div class="options">
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Hamburger</p>
+                        <p class="price">$9.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>Comes with choice of side.</p>
+                    </div>
+                </div>
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Cheeseburger</p>
+                        <p class="price">$9.75</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>Comes with choice of side.</p>
+                    </div>
+                </div>
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Grilled Chicken Breast Sandwich</p>
+                        <p class="price">$9.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>Comes with choice of side.</p>
+                    </div>
+                </div>
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Mushroom & Swiss Burger</p>
+                        <p class="price">$10.25</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>Comes with choice of side.</p>
+                    </div>
+                </div>
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Bacon Cheeseburger</p>
+                        <p class="price">$9.75</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>Comes with choice of side.</p>
+                    </div>
+                </div>
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Breaded Chicken Tender Sandwich</p>
+                        <p class="price">$9.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>Comes with choice of side.</p>
+                    </div>
+                </div>
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Roasted Turkey Breast</p>
+                        <p class="price">$9.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>Comes on toasted Italian break with choice of side.</p>
+                    </div>
+                </div>
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Turkey Club</p>
+                        <p class="price">$11.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>Triple Decker on toasted Italian bread, with lettuce, tomato, bacon, American cheese, and roasted turkey. Comes with choice of side.</p>
+                    </div>
+                </div>
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">BLT</p>
+                        <p class="price">$9.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>Bacon, lettuce, and tomato, on toasted Italian bread. Comes with choice of side.</p>
+                    </div>
+                </div>
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Tuna Salad</p>
+                        <p class="price">$9.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>Comes on toasted Italian bread with choice of side.</p>
+                    </div>
+                </div>
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Grilled Cheese</p>
+                        <p class="price">$8.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>Grilled on Italian bread. Comes with choice of side.</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <br> <br>
+
+        <div class="card">
+            <div class="card_title">
+                <p>Lunch Favorites</p>
+            </div>
+
+            <div class="options">
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Diner Burger</p>
+                        <p class="price">$11.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>Open faced cheeseburger w/ lettuce, tomato, ketchup, and mayo. Topped with cheddar cheese, & breaded jalapeno and onion straws. Comes w/ choice of side</p>
+                    </div>
+                </div>
+
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Buffalo Chicken Wrap</p>
+                        <p class="price">$11.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>Chicken tenders dipped in a buffalo sauce. Topped with ranch dressing and lettuce. Served on a pita. Comes w/ choice of side</p>
+                    </div>
+                </div>
+
+                <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Greek Wrap</p>
+                        <p class="price">$11.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>Marinated grilled chicken w/ a garlic and spinach mix. Topped with melted feta and tomato. Served on a pita. Comes w/ choice of side</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <br> <br>
+
+        <div class="card">
+            <div class="card_title">
+                <p>Salads</p>
+            </div>
+
+            <div class="option">
+                    <button class="accordion">
+                        <p class="fname">Greek Salad</p>
+                        <p class="price">$9.00</p>
+                    </button>
+
+                    <div class="panel">
+                        <p>Mixed lettuce w/ green pepper, cucumber, tomato, red onion, kalamata olives, & feta cheese. Marinated chicken extra</p>
+                    </div>
+                </div>
+
+            <div class="option">
+                <button class="accordion">
+                    <p class="fname">Jumbo Tossed Salad</p>
+                    <p class="price">$8.00</p>
+                </button>
+
+                <div class="panel">
+                    <p>Mixed Lettuce w/ green pepper, cucumber, tomato, sliced olives, and cheddar cheese</p>
+                </div>
+            </div>
+
+            <div class="option">
+                <button class="accordion">
+                    <p class="fname">Pittsburgh - Style Grilled Chicken</p>
+                    <p class="price">$13.00</p>
+                </button>
+
+                <div class="panel">
+                    <p>Mixed Lettuce w/ green pepper, cucumber, tomato, sliced olives, french fries, cheddar cheese, & marinated chicken breast</p>
+                </div>
+            </div>
+        </div>
+
+        <br> <br>
+
+        <div class="card">
+            <div class="card_title">
+                <p>Sides</p>
+            </div>
+
+            <div class="option">
+                <button class="accordion">
+                    <p class="fname">Famous Lyonnaise Potatoes</p>
+                    <p class="price">$4.00</p>
+                </button>
+            </div>
+
+            <div class="option">
+                <button class="accordion">
+                    <p class="fname">French Fries</p>
+                    <p class="price">$3.50</p>
+                </button>
+            </div>
+
+            <div class="option">
+                <button class="accordion">
+                    <p class="fname">Side Salad</p>
+                    <p class="price">$3.50</p>
+                </button>
+
+                <div class="panel">
+                    <p>Mixed Lettuce w/ green pepper, cucumber, tomato, sliced olives, and cheddar cheese</p>
+                </div>
+            </div>
+
+            <div class="option">
+                <button class="accordion">
+                    <p class="fname">Fruit Cup</p>                        
+                    <p class="price">$4.00</p>
+
+                </button>
+
+            </div>
+
+            <div class="option">
+                <button class="accordion">
+                    <p class="fname">Extra Guacomole</p>
+                    <p class="price">$0.75</p>
+                </button>
+            </div>
+
+            <div class="option">
+                <button class="accordion">
+                    <p class="fname">Extra Sour Cream</p>
+                    <p class="price">$0.75</p>
+                </button>
+
+            </div>
+
+            <div class="option">
+                <button class="accordion">
+                    <p class="fname">Extra Salsa</p>
+                    <p class="price">$0.75</p>
+                </button>
+            </div>
+
+            <div class="option">
+                <button class="accordion">
+                    <p class="fname">Extra Dressing</p>
+                    <p class="price">$0.75</p>
+                </button>
+            </div>
+        </div>
+
+        <br> <br>
+
+        <div class="card">
+            <div class="card_title">
+                <p>Sides</p>
+            </div>
+
+            <div class="option">
+                <button class="accordion">
+                    <p class="fname">Bottomless Pot of Coffee</p>
+                    <p class="price">$2.50</p>
+                </button>
+            </div>
+            <div class="option">
+                <button class="accordion">
+                    <p class="fname">Hot Chocolate</p>
+                    <p class="price">$2.50</p>
+                </button>
+            </div>
+            <div class="option">
+                <button class="accordion">
+                    <p class="fname">Hot Tea</p>
+                    <p class="price">$2.50</p>
+                </button>       
+            </div>
+            <div class="option">
+                <button class="accordion">
+                    <p class="fname">Bottled Water</p>
+                    <p class="price">$2.50</p>
+                </button>
+            </div>
+            <div class="option">
+                <button class="accordion">
+                    <p class="fname">Pepsi</p>
+                    <p class="price">$2.50</p>
+                </button>
+            </div>
+            <div class="option">
+                <button class="accordion">
+                    <p class="fname">Diet Pepsi</p>
+                    <p class="price">$2.50</p>
+                </button>
+            </div>  
+            <div class="option">
+                <button class="accordion">
+                    <p class="fname">Mountain Dew</p>
+                    <p class="price">$2.50</p>
+                </button>
+            </div>
+            <div class="option">
+                <button class="accordion">
+                    <p class="fname">Sierra Mist</p>
+                    <p class="price">$2.50</p>
+                </button>
+            </div>
+            <div class="option">
+                <button class="accordion">
+                    <p class="fname">Orange Crush</p>
+                    <p class="price">$2.50</p>
+                </button>
+            </div>
+            <div class="option">
+                <button class="accordion">
+                    <p class="fname">Root Beer</p>
+                    <p class="price">$2.50</p>
+                </button>
+            </div>
+
+            <div class="option">
+                <button class="accordion">
+                    <p class="fname">Pink Lemonade</p>
+                    <p class="price">$2.50</p>
+                </button>
+            </div>
+            <div class="option">
+                <button class="accordion">
+                    <p class="fname">Raspberry Iced Tea</p>
+                    <p class="price">$2.50</p>
+                </button>
+            </div>
+            <div class="option">
+                <button class="accordion">
+                    <p class="fname">Unsweetened Iced Tea</p>
+                    <p class="price">$2.50</p>
+                </button>
+            </div>
+        </div>
+
+        <br> <br>
+        
+    </div>
+    <script>showPanel();</script>
+</body>
+</html>
